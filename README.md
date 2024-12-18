@@ -22,6 +22,13 @@ Allowed settings:
 
 Example request in [settings.http](settings.http)
 
+**Restart camera after change your settings**
+
+Urls:
+* /restart
+* /stream
+* /settings
+
 ### Board configuration
 
 The `platformio.ini` currently configures the project for an ESP-WROVER chipset (has PSRAM), with the flash in QIO mode at 80MHz.
