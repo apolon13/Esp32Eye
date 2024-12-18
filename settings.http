@@ -1,4 +1,4 @@
 ### GET setting request
-GET http://192.168.1.100:80/settings?appSsid=espCam1&appPass=apolon13&stationSsid=apolon13station2.4&stationPass=barbariant92&frameSize=13&jpegQuality5
+GET http://192.168.1.100:80/settings?appSsid=espCam1&appPass=pass&stationSsid=apolon13station2.4&stationPass=pass&frameSize=6&jpegQuality=10
 Accept: text/plain
 ###
