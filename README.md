@@ -10,7 +10,7 @@
 
 Default camera SOFT AP Ip - 192.168.1.100
 
-Default wifi password - adminadmin
+Default wifi password - adminadmin, ssid - chipId (some uint32 number)
 
 Allowed settings:
 * appSsid - SOFT APP ssid
