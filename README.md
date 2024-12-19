@@ -17,7 +17,7 @@ Allowed settings:
 * appPass - SOFT APP pass
 * stationSsid - STA ssid
 * stationPass - STA pass
-* frameSize [default FRAMESIZE_QVGA] - camera frame size, see enum [here](https://github.com/espressif/esp32-camera/blob/master/driver/include/sensor.h#L87)
+* frameSize [default 10 (FRAMESIZE_SVGA)] - camera frame size, see enum [here](https://github.com/espressif/esp32-camera/blob/master/driver/include/sensor.h#L87)
 * jpegQuality [default 10] - quality of JPEG output. 0-63 lower means higher quality
 
 Example request in [settings.http](settings.http)

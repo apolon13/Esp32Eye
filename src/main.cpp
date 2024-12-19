@@ -26,7 +26,7 @@ void setup() {
     preferences.begin("app");
     WifiNetwork network;
     Camera camera(
-            (framesize_t)preferences.getString("frameSize", String(FRAMESIZE_QVGA)).toInt(),
+            (framesize_t)preferences.getString("frameSize", String(FRAMESIZE_SVGA)).toInt(),
             preferences.getString("jpegQuality", "10").toInt()
     );
 
